@@ -48,10 +48,171 @@ form#insForm div#btnArea button {
 
 
 
+/* 수험자 성적 리스트 시작 */
+div#wrap.listWrap {
+	width: 720px;
+}
+div#wrap.listWrap header#header {
+	padding: 10px 30px 20px 50px;
+	justify-content: space-between;
+}
+
+div#wrap.listWrap header#header button {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px 30px;
+	cursor: pointer;
+}	
+
+div#wrap.listWrap main#main div#headerRow {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 2px solid #ddd;
+	background-color: rgba(0, 136, 255, 0.1);
+}
+
+#main span {
+	font-size: 15px;
+	text-align: center;	
+}
+#main #headerRow span {
+	font-weight: bold;
+}
+
+#main span:nth-child(1) {
+	width: 50px;
+}
+#main span:nth-child(2) {
+	width: 80px;
+}
+#main span:nth-child(3) {
+	width: 80px;
+}
+#main span:nth-child(4) {
+	width: 80px;
+}
+#main span:nth-child(5) {
+	width: 80px;
+}
+#main span:nth-child(6) {
+	flex: 1;
+}
+#main span:nth-child(7) {
+	width: 120px;
+}
+#main span:nth-child(8) {
+	width: 60px;
+}
+
+div#wrap.listWrap main#main div.dataRow {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #aaa;
+}
+
+div#wrap.listWrap main#main div.dataRow:hover {
+	background-color: rgba(136, 136, 136, 0.1);
+	cursor: pointer;
+}
+/* 수험자 성적 리스트 끝 */
 
 
+/* 상세 내용보기 시작 */
+div#wrap.detailWrap h2 {
+	padding-left: 20px;
+}
+div#wrap.detailWrap li {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+div#wrap.detailWrap div#btnArea {
+	text-align: center;
+	margin: 15px 0 5px;
+}
+div#wrap.detailWrap div#btnArea button {
+	font-size: 17px;
+	font-weight: bold;
+	padding: 3px 15px;
+	margin: 0 5px;
+	cursor: pointer;
+}
+/* 상세 내용보기 끝 */
 
 
+/* 수험결과 수정하기 입력양식 시작 */
+div#wrap.modWrap input.readOnly {
+	border: none;
+	outline: none;
+}
+
+/* 수험결과 수정하기 입력양식 끝 */
+
+
+/* 평균점수 목록 시작 */
+div#wrap.avgListWrap {
+	width: 500px;
+}
+div#wrap.avgListWrap header#header {
+	padding: 10px 30px 20px 50px;
+	justify-content: space-between;
+}
+
+div#wrap.avgListWrap header#header button {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 3px 30px;
+	cursor: pointer;
+}	
+
+
+div#wrap.avgListWrap main#main div#headerRow {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 2px solid #ddd;
+	background-color: rgba(0, 136, 255, 0.1);
+}
+
+#main span {
+	font-size: 15px;
+	text-align: center;	
+}
+#main #headerRow span {
+	font-weight: bold;
+}
+
+#main span:nth-child(1) {
+	width: 60px;
+}
+#main span:nth-child(2) {
+	width: 90px;
+}
+#main span:nth-child(3) {
+	width: 80px;
+}
+#main span:nth-child(4) {
+	width: 80px;
+}
+#main span:nth-child(5) {
+	width: 80px;
+}
+#main span:nth-child(6) {
+	flex: 1;
+}
+
+div#wrap.avgListWrap main#main div.dataRow {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #aaa;
+}
+
+div#wrap.avgListWrap main#main div.dataRow:hover {
+	background-color: rgba(136, 136, 136, 0.1);
+	cursor: pointer;
+}
+
+
+/* 평균점수 목록 끝 */
 
 
 
